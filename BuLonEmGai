@@ -1927,7 +1927,7 @@ Auto_Farm = vu
 	_G.Setting_table.AutoFarm = vu
 	Update_Setting(getgenv()['MyName'])
 end)
-farmlv:Label("Weapon")
+
 	local plr = game.Players.LocalPlayer
 	local CbFw = getupvalues(require(plr.PlayerScripts.CombatFramework))
 	local CbFw2 = CbFw[2]
