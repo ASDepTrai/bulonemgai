@@ -1728,6 +1728,62 @@ function CheckQuestBoss()
 					CFrameQ = CFrame.new(-1928.31763, 37.7296638, -12840.626)
 					CFrameMon = CFrame.new(-1818.347900390625, 93.41275787353516, -12887.66015625)
 					TelePBoss(CFrameQ)
+
+
+
+
+elseif Lv >= 2275 and Lv <= 2299 or SelectMonster == "Head Baker [Lv. 2275]" then 
+					Ms = "Head Baker [Lv. 2275]"
+					NameQuest = "CakeQuest2"
+					QuestLv = 2
+					NameMon = "Head Baker"
+					CFrameQ = CFrame.new(-1926, 38, -12850)
+					CFrameMon = CFrame.new(-1926, 88, -12850)
+					SelectMonster = "Head Baker [Lv. 2275]"
+					TelePBoss(CFrameQ)
+				
+elseif Lv >= 2300 and Lv <= 2324 or SelectMonster == "Cocoa Warrior [Lv. 2300]" then 
+					Ms = "Cocoa Warrior [Lv. 2300]"
+					NameQuest = "ChocQuest1"
+					QuestLv = 1
+					NameMon = "Cocoa Warrior"
+					CFrameQ = CFrame.new(231, 23, -12194)
+					CFrameMon = CFrame.new(231, 23, -12194)
+					SelectMonster = "Cocoa Warrior [Lv. 2300]"
+					TelePBoss(CFrameQ)
+
+
+elseif Lv >= 2325 and Lv <= 2349 or SelectMonster == "Cocoa Warrior [Lv. 2300]" then 
+					Ms = "Chocolate Bar Battler [Lv. 2325]"
+					NameQuest = "ChocQuest1"
+					QuestLv = 2
+					NameMon = "Chocolate Bar Battler"
+					CFrameQ = CFrame.new(231, 23, -12194)
+					CFrameMon = CFrame.new(231, 23, -12194)
+					SelectMonster = "Chocolate Bar Battler [Lv. 2325]"
+					TelePBoss(CFrameQ)
+
+
+elseif Lv >= 2350 and Lv <= 2374 or SelectMonster == "Sweet Thief [Lv. 2350]" then 
+					Ms = "Chocolate Bar Battler [Lv. 2325]"
+					NameQuest = "ChocQuest2"
+					QuestLv = 1
+					NameMon = "Chocolate Bar Battler"
+					CFrameQ = CFrame.new(151, 23, -12774)
+					CFrameMon = CFrame.new(71, 77, -12632)
+					SelectMonster = "Sweet Thief [Lv. 2350]"
+					TelePBoss(CFrameQ)
+
+
+elseif Lv >= 2375 and Lv <= 2399 or SelectMonster == "Candy Rebel [Lv. 2375]" then 
+					Ms = "Candy Rebel [Lv. 2375]"
+					NameQuest = "ChocQuest2"
+					QuestLv = 2
+					NameMon = "Candy Rebel"
+					CFrameQ = CFrame.new(151, 23, -12774)
+					CFrameMon = CFrame.new(134, 77, -12882)
+					SelectMonster = "Sweet Thief [Lv. 2350]"
+					TelePBoss(CFrameQ)
 				end
 			end
 		end
@@ -1864,6 +1920,8 @@ local cre = ashub:Server("Credit", "rbxassetid://14513588666")
 
 local farm = ashub:Server("Farm", "rbxassetid://14539545362")
 
+local shop = ashub:Server("Shop", "rbxassetid://14539551549")
+
 local tp = ashub:Server("Teleport", "rbxassetid://14539548649")
 
 local st = ashub:Server("Setting", "rbxassetid://14539554537")
@@ -1898,6 +1956,19 @@ local tpw = tp:Channel("World")
 
 --------------------------------------------------------------------------
 
+local ml = shop:Channel("Melee")
+
+local sw = shop:Channel("Swords")
+
+local gun = shop:Channel("Guns")
+
+local fruit = shop:Channel("Devil Fruits")
+
+local ab = shop:Channel("Abilitys")
+
+local frag = shop:Channel("Fragment")
+
+local bone = shop:Channel("Bones")
 
 --------------------------------------------------------------------------
 
@@ -1921,7 +1992,7 @@ end)
 
 
 
-
+farmlv:Label("Auto Farm Level")
 farmlv:Toggle("Auto Farm",_G.Setting_table.AutoFarm,function(vu)
 Auto_Farm = vu
 	_G.Setting_table.AutoFarm = vu
@@ -2154,6 +2225,9 @@ spawn(function()
 		end)
 	end
 end)
+
+
+fa:Label("Fast Attack Mode")
 	
 if _G.Setting_table.FastAttack_Mode == nil then
 	_G.Setting_table.FastAttack_Mode = "Fast"
@@ -2191,3 +2265,440 @@ fa:Dropdown("Mode",MIo,function(vu)
 end)
 local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
 Camera:Stop()
+
+
+
+sw:Label("Legendary Sword")
+
+sw:Toggle("Auto Buy Legendary Sword",_G.Setting_table.Auto_Buy_Legendary_Sword,function(vu)
+	_G.Setting_table.Auto_Buy_Legendary_Sword = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+spawn(function()
+    while wait(.1) do
+        pcall(function()
+            if _G.Setting_table.Auto_Buy_Legendary_Sword or Triple_A then
+                local args = {
+                    [1] = "LegendarySwordDealer",
+                    [2] = "2"
+                }
+                -- Triple_A
+                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+            else
+				wait(2)
+			end
+        end)
+    end
+end)
+
+
+
+ab:Label("Ability")
+ab:Button("Buy SkyJump",function()
+    local args = {
+        [1] = "BuyHaki",
+        [2] = "Geppo"
+    }
+   game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+ab:Button("Buy Soru",function()
+    local args = {
+        [1] = "BuyHaki",
+        [2] = "Soru"
+    }
+   
+ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+ab:Button("Buy Haki",function()
+    local args = {
+        [1] = "BuyHaki",
+        [2] = "Buso"
+    }
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))    
+end)
+ab:Button("Buy KenHaki",function()
+    local args = {
+        [1] = "KenTalk",
+        [2] = "Buy"
+    }
+
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))    
+end)
+
+
+fruit:Toggle("Auto Buy Random Fruit",_G.Setting_table.Auto_Buy_Random_Fruit,function(vu)
+	_G.Setting_table.Auto_Buy_Random_Fruit = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+spawn(function()
+    while wait(.2) do
+        if _G.Setting_table.Auto_Buy_Random_Fruit then
+            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Cousin","Buy")
+            wait(20)
+        end
+    end
+end) 
+fruit:Toggle("Auto Stored Fruits",_G.Setting_table.Inventory_Fruit,function(vu)
+	Inventory_Fruit = vu
+	_G.Setting_table.Inventory_Fruit = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+if _G.Setting_table.Open_Don_Swan then
+	Inventory_Fruit = true
+end
+
+spawn(function()
+    while wait(2) do
+		pcall(function()
+			if Inventory_Fruit then
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Bomb Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Bomb Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Bomb-Bomb")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Spike Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Spike Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Spike-Spike")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Chop Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Chop Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Chop-Chop")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Spring Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Spring Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Spring-Spring")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Kilo Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Kilo Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Kilo-Kilo")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Smoke Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Smoke Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Smoke-Smoke")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Spin Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Spin Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Spin-Spin")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Flame Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Flame Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Flame-Flame")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Bird: Falcon Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Bird: Falcon Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Bird-Bird: Falcon")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Ice Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Ice Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Ice-Ice")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Sand Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Sand Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Sand-Sand")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Dark Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Dark Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Dark-Dark")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Revive Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Revive Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Revive-Revive")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Diamond Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Diamond Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Diamond-Diamond")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Light Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Light Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Light-Light")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Love Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Love Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Love-Love")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Rubber Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Rubber Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Rubber-Rubber")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Barrier Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Barrier Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Barrier-Barrier")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magma Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Magma Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Magma-Magma")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Portal Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Portal Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Portal-Portal")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Quake Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Quake Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Quake-Quake")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Human-Human: Buddha Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Human-Human: Buddha Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Human-Human: Buddha")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("String Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("String Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","String-String")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Bird: Phoenix Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Bird: Phoenix Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Bird-Bird: Phoenix")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Rumble Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Rumble Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Rumble-Rumble")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Paw Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Paw Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Paw-Paw")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Gravity Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Gravity Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Gravity-Gravity")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Dough Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Dough Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Dough-Dough")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Shadow Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Shadow Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Shadow-Shadow")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Venom Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Venom Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Venom-Venom")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Control Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Control Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Control-Control")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Dragon Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Dragon Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Dragon-Dragon")
+					wait(1)
+				end
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Soul Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Soul Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Soul-Soul")
+					wait(1)
+				end	
+				if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Leopard Fruit") or game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Leopard Fruit") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StoreFruit","Leopard-Leopard")
+					wait(1)
+				end	
+			end
+		end)
+    end
+end)
+
+ml:Label("Melee List")
+
+
+ml:Button("Buy Electro",function()
+    local args = {
+        [1] = "BuyElectro"
+    }
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+ml:Button("Buy Black Leg",function()
+    local args = {
+        [1] = "BuyBlackLeg"
+    }
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+ml:Button("Buy Fishman Karate",function()
+    local args = {
+        [1] = "BuyFishmanKarate"
+    }
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+
+ml:Button("Buy Dragon Claw",function()
+    local args = {
+        [1] = "BlackbeardReward",
+        [2] = "DragonClaw",
+        [3] = "1"
+    }
+   
+ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    local args = {
+        [1] = "BlackbeardReward",
+        [2] = "DragonClaw",
+        [3] = "2"
+    }
+
+
+ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+ml:Label("Melee V2")
+ml:Button("Buy Superhuman",function()
+    local args = {
+        [1] = "BuySuperhuman"
+    }
+
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+
+ml:Button("Buy Death Step",function()
+    local args = {
+        [1] = "BuyDeathStep"
+    }
+
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+
+ml:Button("Buy Shakman Karate",function()
+    local args = {
+        [1] = "BuySharkmanKarate",
+        [2] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    local args = {
+        [1] = "BuySharkmanKarate"
+    }
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+ml:Button("Buy ElectricClaw",function()
+    local args = {
+        [1] = "BuyElectricClaw"
+        }
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end)
+
+    ml:Button("Buy Dragon Talon",function()
+        local args = {
+            [1] = "BuyDragonTalon",
+            [2] = true
+            }
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+        local args = {
+            [1] = "BuyDragonTalon"
+            }
+     
+
+
+
+
+
+
+
+   game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    end)
+
+bone:Label("Bones")
+
+    bone:Button("Buy Random Surprise",function()
+        local args = {
+            [1] = "Bones",
+            [2] = "Check"
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+
+        local args = {
+            [1] = "Bones",
+            [2] = "Buy",
+            [3] = 1,
+            [4] = 1
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    end)
+    
+	bone:Toggle("Auto Buy Random Surprise",_G.Setting_table.Auto_Random,function(vu)
+		_G.Auto_Random = vu
+		_G.Setting_table.Auto_Random = vu
+		Update_Setting(getgenv()['MyName'])
+	end)
+    
+    spawn(function()
+        while wait(3) do
+            pcall(function()
+                if _G.Auto_Random then
+					spawn(function()
+						wait(15)
+						IKAI = true
+					end)
+					repeat wait(.1)
+						game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Check")
+						game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Buy",1,1)
+					until IKAI == true
+                end
+            end)
+        end
+    end)
+
+
+
+
+	sw:Label("Sword List")
+sw:Button("Buy Katana",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Katana")
+end)
+sw:Button("Buy Cutlass",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Cutlass")
+end)
+sw:Button("Buy Duel Katana",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Duel Katana")
+end)
+sw:Button("Buy Iron Mace",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Iron Mace")
+end)
+sw:Button("Buy Pipe",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Pipe")
+end)
+sw:Button("Buy Triple Katana",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Triple Katana")
+end)
+sw:Button("Buy Dual-Headed Blade",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Dual-Headed Blade")
+end)
+sw:Button("Buy Bisento",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Bisento")
+end)
+sw:Button("Buy Soul Cane",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Soul Cane")
+end)
+
+
+
+
+gun:Label("Gun")
+gun:Button("Buy Slingshot",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Slingshot")
+end)
+gun:Button("Buy Musket",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Musket")
+end)
+gun:Button("Buy Fintlock",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Flintlock")
+end)
+gun:Button("Buy Refined Flintlock",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Refined Flintlock")
+end)
+gun:Button("Buy Cannon",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyItem","Cannon")
+end)
+gun:Button("Buy Kabucha",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Slingshot","1")
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Slingshot","2")
+end)
+
+
+
+
+
+
+frag:Label("Fragments")
+frag:Button("Buy Refund Stat",function()
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","1")
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","2")
+end)
+frag:Button("Buy Random Race",function()
+    local args = {
+        [1] = "BlackbeardReward",
+        [2] = "Reroll",
+        [3] = "2"
+    }
+end)
