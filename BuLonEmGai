@@ -1908,7 +1908,7 @@ end)
 --------------------------------------------------------------------
 
 
-local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/AnSitDz/AnSitHub/main/AnSitDiscord.lua")()
 
 
 local ashub = DiscordLib:Window("AnSit Hub - Blox Fruits")
@@ -1948,11 +1948,13 @@ end)
 
 local farmlv = farm:Channel("Farm")
 
+local farmother = farm:Channel("Other")
+
+local stat = farm:Channel("Stats")
 
 --------------------------------------------------------------------------
 
 local tpw = tp:Channel("World")
-
 
 --------------------------------------------------------------------------
 
@@ -1973,6 +1975,8 @@ local bone = shop:Channel("Bones")
 --------------------------------------------------------------------------
 
 local fa = st:Channel("Fast Attack")
+
+local settingother = st:Channel("Other")
 
 --------------------------------------------------------------------------
 
@@ -2701,4 +2705,368 @@ frag:Button("Buy Random Race",function()
         [2] = "Reroll",
         [3] = "2"
     }
+end)
+
+
+
+settingother:Label("Auto Ability")
+
+settingother:Toggle("Auto Buso Haki", true, function(vu)
+	_G.Setting_table.Auto_Buso = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+spawn(function()
+    while wait(1) do
+		pcall(function()
+			if _G.Setting_table.Auto_Buso then
+				if not game.Players.LocalPlayer.Character:FindFirstChild("HasBuso") then
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buso")
+				else
+					wait(3)
+				end
+			end
+		end)
+    end
+end)
+settingother:Toggle("Auto Ken Haki",_G.Setting_table.Auto_Ken, function(vu)
+	_G.Setting_table.Auto_Ken = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+spawn(function()
+	while wait(2) do
+		pcall(function()
+			if _G.Setting_table.Auto_Ken then
+				game:GetService("ReplicatedStorage").Remotes.CommE:FireServer("Ken",true)
+				wait(7)
+			end
+		end)
+	end
+end)
+
+
+
+
+stat:Label("Stats List")
+
+stat:Toggle("Melee",_G.Setting_table.Melee_A,function(vu)
+	Melee_A = vu
+	_G.Setting_table.Melee_A = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+stat:Toggle("Defense",_G.Setting_table.Defense_A,function(vu)
+	Defense_A = vu
+	_G.Setting_table.Defense_A = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+stat:Toggle("Sword",_G.Setting_table.Sword_A,function(vu)
+	Sword_A = vu
+	_G.Setting_table.Sword_A = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+stat:Toggle("Fruit",_G.Setting_table.Fruit_A,function(vu)
+	Fruit_A = vu
+	_G.Setting_table.Fruit_A = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+stat:Toggle("Gun",_G.Setting_table.Gun_A,function(vu)
+	Gun_A = vu
+	_G.Setting_table.Gun_A = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+stat:Label("Points")
+stat:Slider("Point",1,100,3,function(vu)
+	Points = vu
+end)
+
+spawn(function()
+    while wait(.5) do
+        if Melee_A then
+            if game:GetService("Players").LocalPlayer.Data.Points.Value > 0 then
+                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AddPoint", "Melee", Points)
+            end
+        end
+    end
+end)
+
+spawn(function()
+    while wait(.5) do
+        if Defense_A then
+            if game:GetService("Players").LocalPlayer.Data.Points.Value > 0 then
+                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AddPoint", "Defense", Points)
+            end
+        end
+    end
+end)
+
+spawn(function()
+    while wait(.5) do
+        if Sword_A then
+            if game:GetService("Players").LocalPlayer.Data.Points.Value > 0 then
+                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AddPoint", "Sword", Points)
+            end
+        end
+    end
+end)
+
+spawn(function()
+    while wait(.5) do
+        if Gun_A then
+            if game:GetService("Players").LocalPlayer.Data.Points.Value > 0 then
+                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AddPoint", "Gun", Points)
+            end
+        end
+    end
+end)
+
+spawn(function()
+    while wait(.5) do
+        if Fruit_A then
+            if game:GetService("Players").LocalPlayer.Data.Points.Value > 0 then
+                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AddPoint", "Demon Fruit", Points)
+            end
+        end
+    end
+
+
+
+farmother:Label("Auto New World")
+
+farmother:Toggle("Auto Second World",_G.Setting_table.Second_Farm,function(vu)
+	Auto_New_A = vu
+	_G.Setting_table.Second_Farm = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+spawn(function()
+    while wait(.2) do
+        if Auto_New_A then
+            if Mix_Farm == nil or Auto_New_Farm then
+                local Lv = game:GetService("Players").LocalPlayer.Data.Level.Value
+                local Beli = game:GetService("Players").LocalPlayer.Data.Beli.Value
+                local FG = game:GetService("Players").LocalPlayer.Data.Fragments.Value
+                if Lv >= 700 then
+                    Mix_Farm = true
+                    Auto_New_Farm = true
+                    if game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("DressrosaQuestProgress","Detective") == 1 then
+                    else
+                        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("DressrosaQuestProgress","Detective")
+                        wait(2)
+                        EquipWeapon("Key")
+                    end
+                    repeat wait()
+                        TP2(CFrame.new(1347.32947, 37.349369, -1325.44922, 0.538348913, 8.57539106e-08, 0.842722058, 8.61935634e-10, 1, -1.0230886e-07, -0.842722058, 5.58042359e-08, 0.538348913))
+                    until (Vector3.new(1347.32947, 37.349369, -1325.44922)-game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < 1 or Auto_New_A == false
+                    wait(2)
+                    for i,v in pairs(game.workspace.Enemies:GetChildren()) do
+                        if v.Name == "Ice Admiral [Lv. 700] [Boss]" then
+                            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
+                             
+                            repeat wait(_G.Fast_Delay)
+                                EquipWeapon(_G.Setting_table.Weapon)
+                                v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+                                TP(v.HumanoidRootPart.CFrame*CFrame.new(0,25,15))
+                                AttackNoCD()
+                            until v.Humanoid.Health <= 0 or not v.Parent or Auto_New_A == false
+                            wait(2)
+                            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelDressrosa")
+                            wait(25)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end)
+
+
+
+farmother:Toggle("Auto Third World",false,function(vu)
+	Auto_Three_World = vu
+end)
+spawn(function()
+	while wait(.5) do
+		pcall(function()
+			if Auto_Three_World then
+				if game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TalkTrevor","1") == 0 and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TalkTrevor","1") ~= 0 then
+					if game:GetService("Workspace").Enemies:FindFirstChild("rip_indra [Lv. 1500] [Boss]") then
+						for i,v in pairs(game.Workspace.Enemies:GetChildren()) do
+							if v.Name == "rip_indra [Lv. 1500] [Boss]" and v.Humanoid.Health > 0 then
+								if v.Humanoid:FindFirstChild("Animator") then
+									v.Humanoid.Animator:Destroy()
+								end
+								repeat wait(.1)
+									EquipWeapon(_G.Setting_table.Weapon)
+									TP(v.HumanoidRootPart.CFrame*CFrame.new(0,30,0))
+									game:GetService'VirtualUser':Button1Down(Vector2.new(1280,600))
+								until v.Humanoid.Health <= 0 or not v.Parent or not Auto_Three_World or game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TalkTrevor","1") == 0
+								game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ZQuestProgress","Zou")
+								if not YUHJO then
+									Text("à¸—à¸³à¹€à¸„à¸§à¸ªà¹‚à¸¥à¸ 3 à¹€à¸ªà¸£à¹‡à¸ˆà¸ªà¸´à¹‰à¸™")
+									YUHJO = true
+								end
+							end
+						end
+					elseif not game:GetService("Workspace").Enemies:FindFirstChild("rip_indra [Lv. 1500] [Boss]") then
+						game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ZQuestProgress","Check")
+						game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("ZQuestProgress","Begin")
+						repeat wait(1)
+						until game:GetService("Workspace").Enemies:FindFirstChild("rip_indra [Lv. 1500] [Boss]") or game.ReplicatedStorage:FindFirstChild("rip_indra [Lv. 1500] [Boss]")
+					end
+				elseif game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TalkTrevor","1") == 0 then
+					if not IJOIJD then
+						Text("à¸„à¸¸à¸“à¸—à¸³à¹€à¸„à¸§à¸ªà¹‚à¸¥à¸ 3 à¹€à¸ªà¸£à¹‡à¸ˆà¹à¸¥à¹‰à¸§")
+						IJOIJD = true
+					end
+				else
+					if not JUO then
+						Text("à¸„à¸¸à¸“à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¹€à¸›à¸´à¸”à¸›à¸£à¸°à¸•à¸¹à¹‚à¸”à¸Ÿà¸²\nà¹„à¸¡à¹ˆà¸ªà¸²à¸¡à¸²à¸£à¸–à¸—à¸³à¹„à¸”à¹‰!!")
+						JUO = true
+					end
+				end
+			else
+				wait(2)
+			end
+		end)
+	end
+end)
+end)
+
+
+
+farmother:Label("Bartlio")
+farmother:Toggle("Auto Bartlio",_G.Setting_table.Bartlio_Farm,function(vu)
+	Bartlio_Farm = vu
+	_G.Setting_table.Bartlio_Farm = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+spawn(function()
+    while wait(1) do
+		pcall(function()
+			if Bartlio_Farm and New_World then
+				local Lv = game:GetService("Players").LocalPlayer.Data.Level.Value
+				if Lv >= 900 then
+					if game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BartiloQuestProgress","Bartilo") == 0 then
+						if string.find(game.Players.LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, "Swan Pirates") and string.find(game.Players.LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, "50") and game.Players.LocalPlayer.PlayerGui.Main.Quest.Visible == true then
+							if game.workspace.Enemies:FindFirstChild("Swan Pirate [Lv. 775]") then
+								for i,v in pairs(game.workspace.Enemies:GetChildren()) do
+									if v.Name == "Swan Pirate [Lv. 775]" then
+										CFrameMon = v.HumanoidRootPart.CFrame
+										_G.PosMon = v.HumanoidRootPart.CFrame
+										StatrMagnet = true
+										repeat wait()
+											EquipWeapon(_G.Setting_table.Weapon)
+											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											TP(v.HumanoidRootPart.CFrame*CFrame.new(0,25,0))
+											game:GetService'VirtualUser':CaptureController()
+											game:GetService'VirtualUser':Button1Down(Vector2.new(1280,900))
+										until v.Humanoid.Health <= 0 or not v.Parent or Bartlio_Farm ==false
+										StatrMagnet = false
+									end
+								end
+							elseif game:GetService("ReplicatedStorage"):FindFirstChild("Swan Pirate [Lv. 775]") then
+								TP2(game:GetService("ReplicatedStorage"):FindFirstChild("Swan Pirate [Lv. 775]").HumanoidRootPart.CFrame*CFrame.new(0,20,0))
+							end
+						else
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("StartQuest","BartiloQuest",1)
+						end
+					elseif game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BartiloQuestProgress","Bartilo") == 1 then
+						_G.SelectBoss = "Jeremy [Lv. 850] [Boss]"
+						CheckQuestBoss()
+						if game.workspace.Enemies:FindFirstChild("Jeremy [Lv. 850] [Boss]") then
+							for i,v in pairs(game.workspace.Enemies:GetChildren()) do
+								if v.Name == "Jeremy [Lv. 850] [Boss]" then
+									repeat wait()
+										EquipWeapon(_G.Setting_table.Weapon)
+										v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+										TP(v.HumanoidRootPart.CFrame*CFrame.new(0,25,0))
+										game:GetService'VirtualUser':CaptureController()
+										game:GetService'VirtualUser':Button1Down(Vector2.new(1280,900))
+									until v.Humanoid.Health <= 0 or not v.Parent or Bartlio_Farm == false
+								end
+							end
+						else
+							TP(CFrameBoss)
+						end
+					elseif game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BartiloQuestProgress","Bartilo") == 2 then
+						repeat wait()
+							TP2(CFrame.new(-1836, 11, 1714))
+						until (Vector3.new(-1836, 11, 1714)-game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 2
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1836, 11, 1714)
+						wait(1)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1850.49329, 13.1789551, 1750.89685)
+						wait(1)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1858.87305, 19.3777466, 1712.01807)
+						wait(1)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1803.94324, 16.5789185, 1750.89685)
+						wait(1)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1858.55835, 16.8604317, 1724.79541)
+						wait(1)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1869.54224, 15.987854, 1681.00659)
+						wait(1)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1800.0979, 16.4978027, 1684.52368)
+						wait(1)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1819.26343, 14.795166, 1717.90625)
+						wait(1)
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1813.51843, 14.8604736, 1724.79541)
+					end
+				end
+			end
+		end)
+    end
+end)
+
+farmother:Label("Swan Door")
+
+farmother:Toggle("Auto Open Swan Glass",_G.Setting_table.Open_Don_Swan,function(vu)
+	Inventory_Fruit = vu
+	BringFruit = vu
+	Don_Swan_Quest = vu
+	_G.Setting_table.Open_Don_Swan = vu
+	Update_Setting(getgenv()['MyName'])
+end)
+
+local function split(str, sep)
+	local result = {}
+	local regex = ("([^%s]+)"):format(sep)
+	for each in str:gmatch(regex) do
+	   table.insert(result, each)
+	end
+	return result
+ end
+
+spawn(function()
+    while wait(.5) do
+        pcall(function()
+            if Don_Swan_Quest then
+                if New_World then
+                    local Lv = game:GetService("Players").LocalPlayer.Data.Level.Value
+                    if Lv >= 1200 then
+                        if game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TalkTrevor","1") ~= 0 then
+                            wait(2)
+							local fruit = game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("getInventoryFruits")
+                            for i,v in pairs(fruit) do
+                                if v["Price"] >= 1000000 then
+                                    Inventory_Fruit = false
+                                    Mix_Farm = true
+                                    wait(1)
+                                    local NameFruit = split(v["Name"], "-")[2] .. " Fruit"
+                                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("LoadFruit",v["Name"])
+                                    wait(2)
+                                    EquipWeapon(NameFruit)
+                                    wait(2)
+                                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TalkTrevor","1")
+                                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TalkTrevor","2")
+                                    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TalkTrevor","3")
+                                    Mix_Farm = nil
+                                    Inventory_Fruit = true
+									return
+                                end
+                            end
+                        end
+                    end
+                end
+			else
+				wait(2)
+            end
+        end)
+    end
 end)
