@@ -5580,3 +5580,8 @@ for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) 
 SelectWeapona:Add(v.Name)
 end
 end)
+
+
+fruit:Button("Free Fruit Notifier Gamepass", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/AnSitDz/AnSitHub/main/FN"),true))()
+end)
