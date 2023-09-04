@@ -78,57 +78,6 @@ _G.Setting_table = {
 	Delay_C = 15
 }
 
-_G.Check_Save_Setting = "CheckSaveSetting"
-
-getgenv()['JsonEncode'] = function(msg)
-    return game:GetService("HttpService"):JSONEncode(msg)
-end
-getgenv()['JsonDecode'] = function(msg)
-    return game:GetService("HttpService"):JSONDecode(msg)
-end
-getgenv()['Check_Setting'] = function(Name)
-    if not _G.Dis and not isfolder('AnSit_Hub') then
-        makefolder('AnSit_Hub')
-    end
-    if not _G.Dis and not isfile('AnSit Hub/'..Name..'.json') then
-        writefile('AnSit Hub/'..Name..'.json',JsonEncode(_G.Setting_table))
-    end
-end
-getgenv()['Get_Setting'] = function(Name)
-    if not _G.Dis and isfolder('AnSit_Hub') and isfile('AnSit Hub/'..Name..'.json') then
-        _G.Setting_table = JsonDecode(readfile('Switch Hub BF Premium/'..Name..'.json'))
-        return _G.Setting_table
-	elseif not _G.Dis then
-        Check_Setting(Name)
-    end
-end
-getgenv()['Update_Setting'] = function(Name)
-    if not _G.Dis and isfolder('AnSit_Hub') and isfile('AnSit Hub/'..Name..'.json') then
-        writefile('Switch Hub BF Premium/'..Name..'.json',JsonEncode(_G.Setting_table))
-	elseif not _G.Dis then
-        Check_Setting(Name)
-    end
-end
-
-Check_Setting(_G.Check_Save_Setting)
-Get_Setting(_G.Check_Save_Setting)
-
-if _G.Setting_table.Save_Member then
-	getgenv()['MyName'] = game.Players.LocalPlayer.Name
-	print("Save Member")
-elseif _G.Setting_table.Save_All_Member then
-	getgenv()['MyName'] = "AllMember"
-	print("Save All Member")
-else
-	getgenv()['MyName'] = "None"
-	_G.Dis = true
-end
-
-Check_Setting(getgenv()['MyName'])
-Get_Setting(getgenv()['MyName'])
-
-_G.Setting_table.Key = _G.wl_key
-Update_Setting(getgenv()['MyName'])
 
 if type(_G.Setting_table.Weapon) ~= 'string' then
 	for i2,v2 in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do  
