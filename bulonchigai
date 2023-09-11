@@ -1,4 +1,4 @@
-local plr = game.Players.LocalPlayer 
+ local plr = game.Players.LocalPlayer 
  local mouse = plr:GetMouse() 
  local coregui = game.CoreGui or plr:WaitForChild("PlayerGui") 
   
