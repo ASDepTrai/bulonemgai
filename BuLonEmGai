@@ -378,6 +378,51 @@ local v4 = Window:MakeTab({
 			saveSettings()
 		end    
 	})
+v4:AddLabel("Auto Trial")
+
+
+	v4:AddToggle({
+			Name = "Auto Trial Human",
+			Default = _G.Settings.TrialHuman,
+			Callback = function(va)
+				getgenv().TrialHuman = va
+				_G.Settings.TrialHuman = va
+				saveSettings()
+			end    --TrialHuman
+		})
+
+		v4:AddToggle({
+			Name = "Auto Trial Ghoul",
+			Default = _G.Settings.TrialGhoul,
+			Callback = function(va)
+				getgenv().TrialGhoul = va
+				_G.Settings.TrialGhoul = va
+				saveSettings()
+			end    --TrialGhoul
+		})
+
+		v4:AddToggle({
+			Name = "Auto Trial Mink",
+			Default = _G.Settings.AutoTrialRaceMink,
+			Callback = function(va)
+				getgenv().AutoTrialRaceMink  = va
+				_G.Settings.AutoTrialRaceMink  = va
+				saveSettings()
+			end    --AutoTrialRaceMink
+		})
+
+		v4:AddToggle({
+			Name = "Auto Trial Sky",
+			Default = _G.Settings.AutoTrialRaceSky,
+			Callback = function(va)
+				getgenv().AutoTrialRaceSky  = va
+				_G.Settings.AutoTrialRaceSky  = va
+				saveSettings()
+			end    --AutoTrialRaceSky
+		})
+
+
+
 
 	end
 	
@@ -483,54 +528,6 @@ local v4 = Window:MakeTab({
 	
 	end
 	
-	if World3 then
-		
-		local v4s = v4:AddSection({
-		Name = "Race V4"
-		})
-
-		v4s:AddToggle({
-			Name = "Auto Trial Human",
-			Default = _G.Settings.TrialHuman,
-			Callback = function(va)
-				getgenv().TrialHuman = va
-				_G.Settings.TrialHuman = va
-				saveSettings()
-			end    --TrialHuman
-		})
-
-		v4s:AddToggle({
-			Name = "Auto Trial Ghoul",
-			Default = _G.Settings.TrialGhoul,
-			Callback = function(va)
-				getgenv().TrialGhoul = va
-				_G.Settings.TrialGhoul = va
-				saveSettings()
-			end    --TrialGhoul
-		})
-
-		v4s:AddToggle({
-			Name = "Auto Trial Mink",
-			Default = _G.Settings.AutoTrialRaceMink,
-			Callback = function(va)
-				getgenv().AutoTrialRaceMink  = va
-				_G.Settings.AutoTrialRaceMink  = va
-				saveSettings()
-			end    --AutoTrialRaceMink
-		})
-
-		v4s:AddToggle({
-			Name = "Auto Trial Sky",
-			Default = _G.Settings.AutoTrialRaceSky,
-			Callback = function(va)
-				getgenv().AutoTrialRaceSky  = va
-				_G.Settings.AutoTrialRaceSky  = va
-				saveSettings()
-			end    --AutoTrialRaceSky
-		})
-
-
-		end
 
 	local StatusGame = Window:MakeTab({
 		Name = "Status",
