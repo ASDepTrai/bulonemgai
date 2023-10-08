@@ -40,7 +40,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
 		World2 = true
 	elseif game.PlaceId == 7449423635 then
 		World3 = true
-	else game.Players.LocalPlayer:Kick("[AnSit Hub] Game Not Support")
+	else game.Players.LocalPlayer:Kick("[AnSit Hub] Game Not Support 🔴")
 	end
 	
 	
@@ -572,25 +572,25 @@ local v4 = Window:MakeTab({
 			end)
 		end)
 
-		local KatakuriCheck = StatusGameSection:AddLabel("Katakuri Check : 0")
+		local KatakuriCheck = StatusGameSection:AddLabel("Katakuri Check : ❔️")
 
 		spawn(function()
 			while wait() do
 				pcall(function()
 					if string.len(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 88 then
-						KatakuriCheck:Set("Katakuri Check : Need Kill Mods : "..string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"),39,41))
+						KatakuriCheck:Set("Katakuri Check : Need Kill "..string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"),39,41))
 					elseif string.len(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 87 then
-						KatakuriCheck:Set("Katakuri Check : Need Kill Mods : "..string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"),39,40))
+						KatakuriCheck:Set("Katakuri Check : Need Kill "..string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"),39,40))
 					elseif string.len(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 86 then
-						KatakuriCheck:Set("Katakuri Check : Need Kill Mods : "..string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"),39,39))
+						KatakuriCheck:Set("Katakuri Check : Need Kill "..string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"),39,39))
 					else
-						KatakuriCheck:Set("Katakuri Check : ")
+						KatakuriCheck:Set("Katakuri Check : 🟢")
 					end
 				end)
 			end
 		end)
 
-		local EliteCheck = StatusGameSection:AddLabel("Elite Check : ")
+		local EliteCheck = StatusGameSection:AddLabel("Elite Check : ❔️")
 
         spawn(function()
             while wait() do
@@ -602,27 +602,27 @@ local v4 = Window:MakeTab({
 					elseif game:GetService("ReplicatedStorage"):FindFirstChild("Urban [Lv. 1750]") then
 						EliteCheck:Set("Elite Check : [ Urban ] Lv.1750")	
 					else
-                        EliteCheck:Set("Elite Check : ")	
+                        EliteCheck:Set("Elite Check : 🔴")	
                     end
                 end)
             end
         end)
 
-		local MysticCheck = StatusGameSection:AddLabel("Mystic Check : ")
+		local MysticCheck = StatusGameSection:AddLabel("Mystic Check : ❔️")
 
 		task.spawn(function()
 			while task.wait() do
 				pcall(function()
 					if game.Workspace._WorldOrigin.Locations:FindFirstChild("Mirage Island") then
-						MysticCheck:Set("Mystic Island Check : ")
+						MysticCheck:Set("Mystic Island Check : 🟢")
 					else
-						MysticCheck:Set("Mystic Island Check : ")
+						MysticCheck:Set("Mystic Island Check : 🔴")
 					end
 				end)
 			end
 		end)
 
-		local FullMoonCheck = StatusGameSection:AddLabel("Full Moon Check: ")
+		local FullMoonCheck = StatusGameSection:AddLabel("Full Moon Check: 🔴")
 
 		task.spawn(function()
 			while task.wait() do
@@ -3752,7 +3752,7 @@ creditttt:AddButton({
 			end
 		end)
 
-	else game.Players.LocalPlayer:Kick("AnSit Hub : Game Not Support Wait 5S Leave Game")
+	else game.Players.LocalPlayer:Kick("]AnSit Hub] Game Not Support 🔴")
 		wait(5)
 		game:Shutdown() 
 	end
