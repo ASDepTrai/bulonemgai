@@ -189,7 +189,7 @@ saveSettings()
 
 atstat:AddSlider({
 	Name = "Points",
-	Min = 0,
+	Min = 3,
 	Max = 9,
 	Default = _G.Settings.Points,
 	Color = Color3.fromRGB(255,255,255),
