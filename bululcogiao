@@ -191,9 +191,9 @@ atstat:AddSlider({
 	Name = "Points",
 	Min = 1,
 	Max = 9,
-	Default = 1,
+	Default = _G.Settings.Points,
 	Color = Color3.fromRGB(255,255,255),
-	Increment = 0,
+	Increment = 1,
 	ValueName = "Point",
 	Callback = function(value)
 		_G.Settings.Points = value
