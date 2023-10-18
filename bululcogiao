@@ -76,7 +76,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
 	
 	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AnSitDz/AnSitHub/main/OrionUi')))()
 	
-	local Window = OrionLib:MakeWindow({Name = "AnSit Hub | Blox Fruits", HidePremium = true, IntroText = "AnSit Hub", Icon = "rbxassetid://14513588666", SaveConfig = true, ConfigFolder = "AnSit Hub"})
+	local Window = OrionLib:MakeWindow({Name = "AnSit Hub | Blox Fruits", HidePremium = true, IntroText = "AnSit Hub", Icon = "rbxassetid://15102383203", SaveConfig = true, ConfigFolder = "AnSit Hub"})
 	
 	local main = Window:MakeTab({
 	Name = "Main",
@@ -2174,7 +2174,7 @@ SettingsSection:AddToggle({
 
 local creditttt = Window:MakeTab({
 	Name = "Credit",
-	Icon = "rbxassetid://14513588666",
+	Icon = "rbxassetid://15102383203",
 	PremiumOnly = false
 	})
 
