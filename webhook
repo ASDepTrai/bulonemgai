@@ -1,1213 +1,1931 @@
-print("[AnSit Hub]")
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-wait(_G.Settings.DelayTime)
-SendMessageEMBED(WebhookUrl, embed)
-
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+if _G.Settings.AutoSendWebhook == true then
+WebHookLog:WebHookKaiTanSend(Webhooklink)
+end
+wait(DelayTime)
+print("[AnSit Hub]: Error, Try Auto Send Webhook Again!"
