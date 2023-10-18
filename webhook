@@ -1928,4 +1928,4 @@ if _G.Settings.AutoSendWebhook == true then
 WebHookLog:WebHookKaiTanSend(Webhooklink)
 end
 wait(DelayTime)
-print("[AnSit Hub]: Error, Try Auto Send Webhook Again!"
+warn("[AnSit Hub]: Error, Try Auto Send Webhook Again!")
