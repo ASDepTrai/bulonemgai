@@ -2144,42 +2144,6 @@ saveSettings()
 	})
 
 
-local function InitiateInvis()
-	local Character = Player.Character
-	local StoredCF = Character.PrimaryPart.CFrame
-
-	if CheckRig() == 'R6' then
-		local Clone = Character.HumanoidRootPart:Clone()
-		Character.HumanoidRootPart:Destroy()
-		Clone.Parent = Character
-	else
-		local Clone = Character.LowerTorso.Root:Clone()
-		Character.LowerTorso.Root:Destroy()
-		Clone.Parent = Character.LowerTorso
-	end
-
-end
-
-
-
-SettingsSection:AddToggle({
-		Name = "Invisible",
-		Default = _G.Settings.Invisible,
-		Callback = function(value)
-game.Players.LocalPlayer.Character.CharacterReady:Destroy()
-		local cframeold = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, 10000000, 0)
-		wait(1)
-		InitiateInvis()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = cframeold
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CrewBBG:Destroy()
-	end,
-})
-			saveSettings()
-		end    
-	})
-
-
 
 
 
