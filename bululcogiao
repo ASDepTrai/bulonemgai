@@ -1451,6 +1451,29 @@ ShopSection:AddToggle({
 	})
 
 
+
+SettingsSection:AddToggle({
+		Name = "White Screen",
+		Default = _G.Settings.WhiteScreen,
+		Callback = function(va)
+			_G.Settings.WhiteScreen = value
+		saveSettings()
+		if value == true then
+			RunService:Set3dRenderingEnabled(false)
+			setfpscap(30)
+		else
+			RunService:Set3dRenderingEnabled(true)
+			setfpscap(120)
+		end
+			saveSettings()
+		end    
+	})
+
+
+
+
+
+
 local creditttt = Window:MakeTab({
 	Name = "Credit",
 	Icon = "rbxassetid://14513588666",
