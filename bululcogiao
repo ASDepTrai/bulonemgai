@@ -1748,7 +1748,7 @@ function WebHookLog:WebHookKaiTanSend(WebHookUrl)
 
 			{
 				["name"] = "**AnSit Hub**",
-				["value"] = "||</> @everyone </>||",
+				["value"] = "||</> Thanks For Using </>||",
 				["inline"] = false
 			}},
 		["footer"] = {
