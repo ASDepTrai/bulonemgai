@@ -3559,13 +3559,54 @@ creditttt:AddButton({
 									NQuest = "CandyQuest1"
 									NameMon = "Candy Pirate"
 									CFrameQuest = CFrame.new(-1147.6239013671875, 16.133047103881836, -14444.970703125)
-						   elseif Level <= 2450 then
+						   elseif Level == 2425 or Level <= 2449 then
 									Mon = "Snow Demon [Lv. 2425]"
 									MonPos = CFrame.new(-820.8795166015625, 49.07795715332031, -14329.525390625)
 									LQuest = 2
 									NQuest = "CandyQuest1"
 									NameMon = "Snow Demon"
 									CFrameQuest = CFrame.new(-1147.6239013671875, 16.133047103881836, -14444.970703125)
+
+
+elseif Level == 2450 or Level <= 2474 then
+									Mon = "Isle Outlaw [Lv. 2450]"
+									MonPos = CFrame.new(-16252.5469, 20.3384037, -185.804779)
+									LQuest = 1
+									NQuest = "TikiQuest1"
+									NameMon = "Isle Outlaw"
+									CFrameQuest = CFrame.new(-16548.8633, 57.4723206, -172.8013)
+
+
+elseif Level == 2475 or Level <= 2499 then
+									Mon = "Island Boy [Lv. 2475]"
+									MonPos = CFrame.new(-16798.3359, 21.8593407, -160.853943)
+									LQuest = 2
+									NQuest = "TikiQuest1"
+									NameMon = "Island Boy"
+									CFrameQuest = CFrame.new(-16548.8633, 57.4723206, -172.8013)
+
+
+
+
+
+elseif Level == 2500 or Level <= 2524 then
+									Mon = "Sun-kissed Warrior [Lv. 2500]"
+									MonPos = CFrame.new(-16277.626, 22.4146481, 1014.78894)
+									LQuest = 1
+									NQuest = "TikiQuest2"
+									NameMon = "Isle Outlaw"
+									CFrameQuest = CFrame.new(-16540.998, 57.5679626, 1051.46167)
+
+
+
+
+elseif Level <= 2550 then
+									Mon = "Isle Champion [Lv. 2525]"
+									MonPos = CFrame.new(-16795.3379, 21.4638596, 1040.18958)
+									LQuest = 2
+									NQuest = "TikiQuest2"
+									NameMon = "Isle Champion"
+									CFrameQuest = CFrame.new(-16540.998, 57.5679626, 1051.46167)
 					end
 				end
 			end
