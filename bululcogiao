@@ -83,7 +83,116 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
         Icon = "rbxassetid://",
         PremiumOnly = false
         })
+local atstat = Window:MakeTab({
+	Name = "Stats",
+	Icon = "rbxassetid://",
+	PremiumOnly = false
+	})
 
+
+atstat:AddToggle({
+	Name = "Auto Stats",
+	Default = _G.Settings.AutoStats,
+	Callback = function(value)
+		_G.Settings.AutoStats = value
+        saveSettings()
+	end    
+})
+
+
+
+
+
+atstat:AddDropdown({
+	Name = "Select Stats",
+	Default = _G.Settings.SelectStats,
+	Options = {"Max Stats","Melee","Defense","Sword","Gun","Devil Fruits"},
+	Callback = function(value)
+		_G.Settings.SelectStats = value
+saveSettings()
+		task.spawn(function()
+			pcall(function()
+				while wait() do
+					if _G.Settings.AutoStats then
+						if  _G.Settings.SelectStats == "Melee" then
+							local args = {
+								[1] = "AddPoint",
+								[2] = "Melee",
+								[3] = _G.Settings.Points
+							}
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+						elseif _G.Settings.SelectStats == "Defense" then
+							local args = {
+								[1] = "AddPoint",
+								[2] = "Defense",
+								[3] = _G.Settings.Points
+							}
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+						elseif _G.Settings.SelectStats == "Sword" then
+							local args = {
+								[1] = "AddPoint",
+								[2] = "Sword",
+								[3] = _G.Settings.Points
+							}
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+						elseif _G.Settings.SelectStats == "Gun" then
+							local args = {
+								[1] = "AddPoint",
+								[2] = "Gun",
+								[3] = _G.Settings.Points
+							}
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+						elseif _G.Settings.SelectStats == "Devil Fruits" then
+							local args = {
+								[1] = "AddPoint",
+								[2] = "Demon Fruit",
+								[3] = _G.Settings.Points
+							}
+							game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+						elseif _G.Settings.SelectStats == "Max Stats" then
+							if game:GetService("Players").LocalPlayer.Data.Stats.Melee.Level.Value < 2400 then
+								local args = {
+									[1] = "AddPoint",
+									[2] = "Melee",
+									[3] = _G.Settings.Points
+								}
+								game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+							else
+								local args = {
+									[1] = "AddPoint",
+									[2] = "Defense",
+									[3] = _G.Settings.Points
+								}
+								game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))	
+							end
+						end
+					end
+				end
+			end)
+		end)
+	end
+})
+
+
+
+
+
+	
+
+
+
+atstat:AddSlider({
+	Name = "Points",
+	Min = 1,
+	Max = 9,
+	Default = _G.Settings.Points,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Point",
+	Callback = function(value)
+		_G.Settings.Points = value
+	end    
+})
 
 
         local mainlv = main:AddSection({
